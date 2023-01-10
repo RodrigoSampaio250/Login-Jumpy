@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Jumpy</title>
+</head>
+<body>
+    
+    <nav>
+        <img src="/imagem/dnc-logo.png" alt="DNC">
+    </nav>
+
+    <header class="formulario">
+        <img src="/imagem/jumpy.svg" alt="">
+        <h2>Bem vindo ao Jumpy!</h2>
+
+        <form action="">
+            <div>
+                <label for="">Nome Completo: </label><br>
+                <input id="nome" placeholder="NOME" type="text" required name="Nome:">
+                <h6 id="item1"></h6>
+                <br>
+                <label for="">Email:</label><br>
+                <input id="email" placeholder="fulano@gmail.com" type="email" required name="Email:">
+                <h6 id="item2"></h6>
+                <br>
+                <label for="">Telefone:</label><br>
+                <input id="telefone" placeholder="19-999-999" type="tel" required name="Telefone:">
+                <h6 id="item3"></h6>
+                <br>
+                <label for="">CPF:</label><br>
+                <input id="cpf" placeholder="888-888-888/06" type="text" required name="CPF:">
+                <h6 id="item4"></h6>
+                <br>
+                <label for="">Senha:</label><br>
+                <input id="senha" placeholder="******" type="password" required name="Senha:">
+                <h6 id="item5"></h6>
+                <br>
+            </div>
+
+            <br><br>
+            <button onclick="finalizar">Cadastrar</button>
+            <h6 class="recadoFinal" id="item6"></h6>
+            <br><br><br>
+        </form>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>

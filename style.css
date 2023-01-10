@@ -1,0 +1,100 @@
+*{
+    background: #2D2D2D;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img{
+    width: 125px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario img{
+    width: 280px;
+    margin: 10px;
+}
+.formulario h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    margin: 0px 0px 20px 0px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+input{
+    width: 400px;
+    height: 33px;
+    /* left: 400px;
+    top: 312px; */
+
+    background: rgba(255, 255, 255, 0.9);
+    /* Escala neutra/Preto */
+
+    border: 1px solid #181818;
+    border-radius: 10px;
+}
+div h6{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    /* Alertas/Claro/Perigo/Icon */
+
+    color: #E73550;
+}
+
+.recadoFinal{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+button{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    height: 30px;
+    left: 509px;
+    top: 804px;
+    border: 0px;
+
+    background: #0C70F2;
+    border-radius: 6px;
+    cursor: pointer;
+}
